@@ -1,14 +1,8 @@
 # -MNIST-Digit-Recognition-Dataset
 
-Here is a clean, professional, and well-structured README / description of your project that you can directly use for your GitHub repository:
-
----
-
 # MNIST Digit Recognition using Deep Learning
 
 This repository contains a Python-based implementation of a Feedforward Neural Network built using **TensorFlow** and **Keras** to classify handwritten digits from the **MNIST dataset**.
-
----
 
 ##  Tech Stack & Libraries
 
@@ -16,8 +10,6 @@ This repository contains a Python-based implementation of a Feedforward Neural N
 * **Deep Learning Framework:** TensorFlow / Keras
 * **Numerical Computations:** NumPy
 * **Data Visualization:** Matplotlib
-
----
 
 ##  Project Workflow 
 
@@ -39,3 +31,4 @@ This repository contains a Python-based implementation of a Feedforward Neural N
 6. **Training & Validation:** Trained the network over $10$ epochs with a `batch_size` of $64$ and a $20\%$ validation split (`validation_split=0.2`), closely monitoring loss and accuracy metrics to prevent overfitting.
 7. **Evaluation & Inference:** Evaluated the trained model on unseen test data, achieving a high classification accuracy (~97.96%), followed by generating predictions using `np.argmax`.
 8. **Performance Tracking:** Plotted training and validation loss/accuracy curves across epochs to evaluate model stability and convergence behavior.
+  
